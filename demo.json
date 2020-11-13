@@ -1,0 +1,60 @@
+{
+  code: 0,
+  data: [{
+      account_type: "MIDEA",
+      account_title: "美居",
+      icon: "https://tv.doubimeizhi.com/images/tv/midea_app_logo.png",
+      auth_url: "https://api-prod.smartmidea.net/v1/open/oauth2/authorize?client_id=27aadba9de6cc1a050f3f31e3fe523c2&redirect_uri=https%3A%2F%2Fwifimodule.doubimeizhi.com%2Fmidea%2Fmidea-auth-callback%2Fv2&response_type=code&state=2.8538772eb2024c0db69e51643240f39e",
+      account_intro: "美的集团旗下智慧家居平台",
+      account_desc: "自动同步“美居”中已添加的设备，并且支持语音控制",
+      qrcode_tips: "请使用微信或QQ扫码",
+      corp_name: "美的",
+      BindStatus: 1
+    },
+    {
+      account_type: "SMART_JD",
+      account_title: "小京鱼",
+      icon: "https://tv.doubimeizhi.com/images/tv/xjy_app_logo.png",
+      auth_url: "",
+      account_intro: "京东旗下智慧家居平台",
+      account_desc: "自动同步“小京鱼”中已添加的设备，并且支持语音控制",
+      qrcode_tips: "请使用“小京鱼”app扫码",
+      corp_name: "京东",
+      BindStatus: 0
+    },
+    {
+      account_type: "CW_HILINK",
+      account_title: "华为智能家居",
+      icon: "https://tv.doubimeizhi.com/images/tv/huawei_app_logo.png",
+      auth_url: "https://login.cloud.huawei.com/oauth2/v2/authorize?access_type=offline&client_id=100843855&redirect_uri=https%3A%2F%2Fapi.skyworthiot.com%2Fthirdparty%2Fhilink%2Fauth-callback&response_type=code&scope=https%3A%2F%2Fwww.huawei.com%2Fauth%2Fsmarthome%2Fopencloud&state=2.8538772eb2024c0db69e51643240f39e",
+      account_intro: "华为旗下智慧家居平台",
+      account_desc: "自动同步华为“智能家居”中已添加的设备，并且支持语音控制",
+      qrcode_tips: "请使用微信或QQ扫码",
+      corp_name: "华为",
+      BindStatus: 0
+    },
+    {
+      account_type: "OPEN-136",
+      account_title: "酷开车联",
+      icon: "https://tv.doubimeizhi.com/images/open/app/coolwell_logo240_1.png",
+      auth_url: "https://tsp.coolwellcloud.com/vheilcehome/ui/?client_id=JepbQfIY1QiViLS8gQoTO8HQ&redirect_uri=http%3A%2F%2Fapi-test.skyworthiot.com%2Fdevicemgr%2Fswaiot%2Fauth-callback&response_type=code&scope=all&state=136%2C2.8538772eb2024c0db69e51643240f39e%2C#/user/login",
+      account_intro: "酷开旗下车家互联平台",
+      account_desc: "自动同步”酷开车联“中已添加设备，并且支持语音控制",
+      qrcode_tips: "请使用微信或QQ扫码",
+      corp_name: "南京酷沃智行科技有限公司",
+      BindStatus: 0
+    },
+    {
+      account_type: "OPEN-135",
+      account_title: "永顺智智能家居",
+      icon: "https://tv.doubimeizhi.com/images/open/app/ysz_logo03.png",
+      auth_url: "https://yonsz.com/web/box/proxy/authorize/5/0000?client_id=swaiot&redirect_uri=http%3A%2F%2Fapi-test.skyworthiot.com%2Fdevicemgr%2Fswaiot%2Fauth-callback&response_type=code&scope=api&state=135%2C2.8538772eb2024c0db69e51643240f39e%2C",
+      account_intro: "安顺祥·智控",
+      account_desc: "自动同步”永顺智智能家居“中已添加设备，并且支持语音控制",
+      qrcode_tips: "请使用微信或QQ扫码",
+      corp_name: "深圳永顺智信息科技有限公司",
+      BindStatus: 0
+    }
+  ],
+  msg: "成功"
+}
