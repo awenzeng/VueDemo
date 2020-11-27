@@ -1,15 +1,13 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <h1>{{ msg }}</h1>
-  <firstcomponent></firstcomponent>
+    <h1>你好！Vue世界!!!</h1>
   <ul>
-    <li><router-link to="/first">第一页</router-link></li>
-    <li><router-link to="/second">第二页</router-link></li>
-      <li><router-link to="/third">第三页</router-link></li>
-  </ul>
-  <router-view class="view"></router-view>
-    <iframe class="iframe" src="html/hello.html" frameborder="0" width="1080" height="1920" />
+  <van-button type="primary"><router-link to="/first">第一页</router-link></van-button>
+  <van-button type="info"><router-link to="/second">第二页</router-link></van-button>
+  <van-button type="default"><router-link to="/third">第三页</router-link></van-button>
+    </ul>
+   <router-view class="view"></router-view>
+    <!-- <iframe class="iframe" src="html/frame_b.html" frameborder="0" width="1080" height="1920" />  -->
   </div>
 </template>
 

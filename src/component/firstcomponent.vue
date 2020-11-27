@@ -1,10 +1,9 @@
 <template>
 <div id="firstcomponent">
-  <h1>I am a title.</h1>
-  <a> written by {{ author }} </a>
+   <iframe class="iframe" src="../html/hello.html" frameborder="0" width="1080" height="1920" />
 </div>
  </template>
-
+  
 <script type="text/javascript">
 export default {
   data() {
