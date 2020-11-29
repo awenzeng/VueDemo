@@ -1,26 +1,50 @@
 <template>
-  <div id="app">
-    <h1>你好！Vue世界!!!</h1>
-  <ul>
-  <van-button type="primary"><router-link to="/first">第一页</router-link></van-button>
-  <van-button type="info"><router-link to="/second">第二页</router-link></van-button>
-  <van-button type="default"><router-link to="/third">第三页</router-link></van-button>
-    </ul>
-   <router-view class="view"></router-view>
-    <!-- <iframe class="iframe" src="html/frame_b.html" frameborder="0" width="1080" height="1920" />  -->
+<div id="app">
+  <div>
+      <h1>
+      <img src = "./assets/logo.png" width = "50px" height ="50px" align="middle"/>    你好！Vue世界!!!</h1>
+
   </div>
+  <hr/>
+  <div style="float:left">
+
+    <ol>
+      <van-button type="primary">
+        <router-link to="/first">第一页</router-link>
+      </van-button>
+      <br/><br/>
+      <van-button type="info">
+        <router-link to="/second">第二页</router-link>
+      </van-button>
+        <br/><br/>
+      <van-button type="default">
+        <router-link to="/third">第三页</router-link>
+      </van-button>
+        <br/><br/>
+      <van-button type="default">
+        <router-link to="/four">第四页</router-link>
+      </van-button>
+    </ol>
+
+  </div>
+  <hr />
+  <router-view class="view"></router-view>
+  <!-- <iframe class="iframe" src="html/frame_b.html" frameborder="0" width="1080" height="1920" />  -->
+</div>
 </template>
 
 <script>
-import firstcomponent from './component/firstcomponent.vue'
+import firstcomponent from './component/first_component.vue'
 export default {
   name: 'app',
-  data () {
+  data() {
     return {
       msg: 'Hello World!!! Hello Vue!'
     }
   },
- components: { firstcomponent }
+  components: {
+    firstcomponent
+  }
 }
 </script>
 
@@ -34,7 +58,8 @@ export default {
   margin-top: 60px;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-weight: normal;
 }
 

@@ -13,9 +13,10 @@ Vue.use(VueResource);
 Vue.use(Button);
 
 // 定义组件, 也可以像教程之前教的方法从别的文件引入
-import firstcomponent from './component/firstcomponent.vue'
-import secondcomponent from './component/secondcomponent.vue'
-import thirdcomponent from './component/thirdcomponent.vue'
+import firstcomponent from './component/first_component.vue'
+import secondcomponent from './component/second_component.vue'
+import thirdcomponent from './component/third_component.vue'
+import fourthcomponent from './component/four_component.vue'
 
 // 创建一个路由器实例
 // 并且配置路由规则
@@ -34,7 +35,11 @@ const router = new VueRouter({
     {
       path: '/third',
       component: thirdcomponent
-    }
+    },
+    {
+      path: '/four',
+      component: fourthcomponent
+    },
   ]
 })
 

@@ -1,6 +1,6 @@
 <template>
   <div id="secondcomponent">
-       <iframe class="iframe" src="../html/frame_b.html" frameborder="0" width="1080" height="1920" />
+       <iframe class="iframe" src="../html/frame_table.html" frameborder="0" width="1080" height="1920" />
   </div>
 </template>
 

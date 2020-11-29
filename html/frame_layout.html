@@ -1,0 +1,44 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>第一个Html文档</title>
+</head>
+
+<body>
+  <div id="container">
+
+  <div id="header" style="background-color:#FFA500;">
+  <h1 style="margin-bottom:0;">主要的网页标题</h1></div>
+
+  <div id="menu" style="background-color:#FFD700;height:200px;width:100px;float:left;">
+    <ul>
+      <van-button type="primary">
+        <router-link to="/first">第一页</router-link>
+      </van-button>
+      <van-button type="info">
+        <router-link to="/second">第二页</router-link>
+      </van-button>
+      <van-button type="default">
+        <router-link to="/third">第三页</router-link>
+      </van-button>
+      <van-button type="default">
+        <router-link to="/four">第四页</router-link>
+      </van-button>
+    </ul>
+
+</div>
+
+  <div id="content" style="background-color:#EEEEEE;height:200px;width:400px;float:left;">
+  <router-view class="view"></router-view>
+
+</div>
+
+  <div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">
+  版权 © runoob.com</div>
+
+  </div>
+​
+</body>
+
+</html>
