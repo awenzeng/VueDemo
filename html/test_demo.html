@@ -4,13 +4,14 @@
 <head>
   <meta charset="utf-8">
   <title>第一个Html文档</title>
-</head>
+  </head>
 
 <body>
+
   <!-- 文本 -->
-  <div>文本显示</div>
-  <h1>这是标题 1</h1>
-  <h2>这是标题 2</h2>
+  <div >文本显示</div>
+  <h1 id="btn">这是标题 1</h1>
+  <h2 onclick =buttonClick>这是标题 2</h2>
   <h3>这是标题 3</h3>
   <h4>这是标题 4</h4>
   <h5>这是标题 5</h5>
@@ -147,6 +148,13 @@
     <li>把大象赶进去</li>
     <li>关上冰箱门</li>
   </ol>
+  <script>
+    var btn = document.getElementById("btn");
+    btn.onclick = function buttonClick(){
+      alert("你好！谢谢你");
+      this.title = "你好";
+    };
+  </script>
 </body>
 
 </html>
